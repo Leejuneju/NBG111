@@ -67,6 +67,6 @@ async def pick_random_members(ctx, num_winners: int):
 
 # 디스코드 봇 토큰을 사용하여 봇 로그인
 # 여기에는 본인이 발급받은 디스코드 봇 토큰을 입력해야 합니다.
-accrss_token = os.environ["BOT_TOKEN"]
+access_token = os.environ["BOT_TOKEN"]
 
 bot.run(accrss_token) 
